@@ -1,0 +1,22 @@
+name: fastai36
+channels:
+  - conda-forge
+  - pytorch
+  - fastai
+dependencies:
+  - python=3.6
+  - pip
+  - fastprogress
+  - fastai
+  - jupyter
+  - notebook
+  - Pillow=6.1
+  - setuptools
+  - pip:
+      - pytest
+      - nvidia-ml-py3
+      - jupyter_console
+      - jupyter
+      - notebook
+      - dataclasses
+      - numpy
