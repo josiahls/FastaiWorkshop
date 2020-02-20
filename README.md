@@ -18,4 +18,4 @@ in a half of material, working through this course will give a deeper understand
 - [Nvidia docker-gpu](https://github.com/nvidia/nvidia-docker/wiki/Installation-(version-2.0))
 
 For jupyter
-- `docker build -f cuda.Dockerfile -t fastai-interpreter . && docker run -p 8888:8888 -v $(pwd):/home/fastai_user/ --ipc=host --runtime=nvidia fastai-interpreter` 
+- `docker build -f cuda.Dockerfile -t fastai-interpreter . && docker run -p 8888:8888 -v $(pwd):/home/fastai_user/ --ipc=host --runtime=nvidia fastai-interpreter jt -t grade3 -cellw=90% -fs=20 -tfs=20 -ofs=20` 

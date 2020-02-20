@@ -20,3 +20,4 @@ dependencies:
       - notebook
       - dataclasses
       - numpy
+      - jupyterthemes

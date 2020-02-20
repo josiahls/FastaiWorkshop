@@ -32,4 +32,5 @@ ENV CONDA_DEFAULT_ENV fastai36
 RUN useradd -ms /bin/bash fastai_user
 USER fastai_user
 WORKDIR /home/fastai_user
+RUN /bin/bash -c "source activate fastai36 && jt -t grade3 -cellw=90% -fs=20 -tfs=20 -ofs=20"
 ENTRYPOINT ["/opt/conda/envs/fastai36/bin/jupyter", "notebook", "--ip=0.0.0.0", "--no-browser"]
