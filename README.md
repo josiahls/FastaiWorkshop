@@ -5,6 +5,7 @@ in a half of material, working through this course will give a deeper understand
 ## Installation
 
 ### Cloud 
+- [Google Collab](https://colab.research.google.com/)
 - [Fastai](https://course.fast.ai/) has easy cloud options that range from free to inexpensive.
 
 ### On System
